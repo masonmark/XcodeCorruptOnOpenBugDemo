@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'XcodeCorruptOnOpenBugDemoTool' target in the 'XcodeCorruptOnOpenBugDemoTool' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
