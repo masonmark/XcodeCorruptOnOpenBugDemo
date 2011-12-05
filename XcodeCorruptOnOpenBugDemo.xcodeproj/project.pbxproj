@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		933D2090148C7D5C00301F6A /* XcodeCorruptOnOpenBugDemoTool in Resources */ = {isa = PBXBuildFile; fileRef = 934A51F9148C7C2A004E602E /* XcodeCorruptOnOpenBugDemoTool */; };
 		934A51C2148C7BFB004E602E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934A51C1148C7BFB004E602E /* Cocoa.framework */; };
 		934A51CC148C7BFB004E602E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 934A51CA148C7BFB004E602E /* InfoPlist.strings */; };
 		934A51CE148C7BFB004E602E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 934A51CD148C7BFB004E602E /* main.m */; };
@@ -29,6 +30,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 934A51BC148C7BFB004E602E;
 			remoteInfo = XcodeCorruptOnOpenBugDemo;
+		};
+		9376947D148C7D0A001CABFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 934A51B4148C7BFB004E602E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934A51F8148C7C2A004E602E;
+			remoteInfo = XcodeCorruptOnOpenBugDemoTool;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -235,6 +243,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9376947E148C7D0A001CABFB /* PBXTargetDependency */,
 				934A51E3148C7BFC004E602E /* PBXTargetDependency */,
 			);
 			name = XcodeCorruptOnOpenBugDemoTests;
@@ -303,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				934A51E9148C7BFC004E602E /* InfoPlist.strings in Resources */,
+				933D2090148C7D5C00301F6A /* XcodeCorruptOnOpenBugDemoTool in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +367,11 @@
 			isa = PBXTargetDependency;
 			target = 934A51BC148C7BFB004E602E /* XcodeCorruptOnOpenBugDemo */;
 			targetProxy = 934A51E2148C7BFC004E602E /* PBXContainerItemProxy */;
+		};
+		9376947E148C7D0A001CABFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934A51F8148C7C2A004E602E /* XcodeCorruptOnOpenBugDemoTool */;
+			targetProxy = 9376947D148C7D0A001CABFB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -528,6 +543,7 @@
 				934A51F1148C7BFC004E602E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		934A51F2148C7BFC004E602E /* Build configuration list for PBXNativeTarget "XcodeCorruptOnOpenBugDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +552,7 @@
 				934A51F4148C7BFC004E602E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		934A5204148C7C2B004E602E /* Build configuration list for PBXNativeTarget "XcodeCorruptOnOpenBugDemoTool" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +561,7 @@
 				934A5206148C7C2B004E602E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
