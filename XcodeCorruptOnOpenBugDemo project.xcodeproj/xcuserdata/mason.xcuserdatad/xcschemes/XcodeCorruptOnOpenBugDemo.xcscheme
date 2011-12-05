@@ -16,7 +16,7 @@
                BlueprintIdentifier = "934A51BC148C7BFB004E602E"
                BuildableName = "XcodeCorruptOnOpenBugDemo.app.app"
                BlueprintName = "XcodeCorruptOnOpenBugDemo.app"
-               ReferencedContainer = "container:XcodeCorruptOnOpenBugDemo.xcodeproj">
+               ReferencedContainer = "container:XcodeCorruptOnOpenBugDemo project.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,7 +34,7 @@
                BlueprintIdentifier = "934A51DD148C7BFC004E602E"
                BuildableName = "XcodeCorruptOnOpenBugDemoTests.octest"
                BlueprintName = "XcodeCorruptOnOpenBugDemoTests"
-               ReferencedContainer = "container:XcodeCorruptOnOpenBugDemo.xcodeproj">
+               ReferencedContainer = "container:XcodeCorruptOnOpenBugDemo project.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,7 +44,7 @@
             BlueprintIdentifier = "934A51BC148C7BFB004E602E"
             BuildableName = "XcodeCorruptOnOpenBugDemo.app.app"
             BlueprintName = "XcodeCorruptOnOpenBugDemo.app"
-            ReferencedContainer = "container:XcodeCorruptOnOpenBugDemo.xcodeproj">
+            ReferencedContainer = "container:XcodeCorruptOnOpenBugDemo project.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,7 +62,7 @@
             BlueprintIdentifier = "934A51BC148C7BFB004E602E"
             BuildableName = "XcodeCorruptOnOpenBugDemo.app.app"
             BlueprintName = "XcodeCorruptOnOpenBugDemo.app"
-            ReferencedContainer = "container:XcodeCorruptOnOpenBugDemo.xcodeproj">
+            ReferencedContainer = "container:XcodeCorruptOnOpenBugDemo project.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,7 +80,7 @@
             BlueprintIdentifier = "934A51BC148C7BFB004E602E"
             BuildableName = "XcodeCorruptOnOpenBugDemo.app.app"
             BlueprintName = "XcodeCorruptOnOpenBugDemo.app"
-            ReferencedContainer = "container:XcodeCorruptOnOpenBugDemo.xcodeproj">
+            ReferencedContainer = "container:XcodeCorruptOnOpenBugDemo project.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

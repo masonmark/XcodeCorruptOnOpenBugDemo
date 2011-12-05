@@ -54,7 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		934A51BD148C7BFB004E602E /* XcodeCorruptOnOpenBugDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeCorruptOnOpenBugDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		934A51BD148C7BFB004E602E /* XcodeCorruptOnOpenBugDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = XcodeCorruptOnOpenBugDemo.app; path = XcodeCorruptOnOpenBugDemo.app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		934A51C1148C7BFB004E602E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		934A51C4148C7BFB004E602E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		934A51C5148C7BFB004E602E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -277,7 +277,7 @@
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Nakahara Informatics, Inc.";
 			};
-			buildConfigurationList = 934A51B7148C7BFB004E602E /* Build configuration list for PBXProject "XcodeCorruptOnOpenBugDemo" */;
+			buildConfigurationList = 934A51B7148C7BFB004E602E /* Build configuration list for PBXProject "XcodeCorruptOnOpenBugDemo project" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -481,7 +481,7 @@
 		934A51F3148C7BFC004E602E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XcodeCorruptOnOpenBugDemo.app/Contents/MacOS/XcodeCorruptOnOpenBugDemo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XcodeCorruptOnOpenBugDemo.app.app/Contents/MacOS/XcodeCorruptOnOpenBugDemo.app";
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XcodeCorruptOnOpenBugDemo/XcodeCorruptOnOpenBugDemo-Prefix.pch";
@@ -495,7 +495,7 @@
 		934A51F4148C7BFC004E602E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XcodeCorruptOnOpenBugDemo.app/Contents/MacOS/XcodeCorruptOnOpenBugDemo";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/XcodeCorruptOnOpenBugDemo.app.app/Contents/MacOS/XcodeCorruptOnOpenBugDemo.app";
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XcodeCorruptOnOpenBugDemo/XcodeCorruptOnOpenBugDemo-Prefix.pch";
@@ -527,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		934A51B7148C7BFB004E602E /* Build configuration list for PBXProject "XcodeCorruptOnOpenBugDemo" */ = {
+		934A51B7148C7BFB004E602E /* Build configuration list for PBXProject "XcodeCorruptOnOpenBugDemo project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				934A51ED148C7BFC004E602E /* Debug */,
