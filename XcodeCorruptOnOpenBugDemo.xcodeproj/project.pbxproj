@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		933D2090148C7D5C00301F6A /* XcodeCorruptOnOpenBugDemoTool in Resources */ = {isa = PBXBuildFile; fileRef = 934A51F9148C7C2A004E602E /* XcodeCorruptOnOpenBugDemoTool */; };
+		933D2090148C7D5C00301F6A /* XcodeCorruptOnOpenBugDemo in Resources */ = {isa = PBXBuildFile; fileRef = 934A51F9148C7C2A004E602E /* XcodeCorruptOnOpenBugDemo */; };
 		934A51C2148C7BFB004E602E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 934A51C1148C7BFB004E602E /* Cocoa.framework */; };
 		934A51CC148C7BFB004E602E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 934A51CA148C7BFB004E602E /* InfoPlist.strings */; };
 		934A51CE148C7BFB004E602E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 934A51CD148C7BFB004E602E /* main.m */; };
@@ -73,7 +73,7 @@
 		934A51E8148C7BFC004E602E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		934A51EA148C7BFC004E602E /* XcodeCorruptOnOpenBugDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeCorruptOnOpenBugDemoTests.h; sourceTree = "<group>"; };
 		934A51EB148C7BFC004E602E /* XcodeCorruptOnOpenBugDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeCorruptOnOpenBugDemoTests.m; sourceTree = "<group>"; };
-		934A51F9148C7C2A004E602E /* XcodeCorruptOnOpenBugDemoTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeCorruptOnOpenBugDemoTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		934A51F9148C7C2A004E602E /* XcodeCorruptOnOpenBugDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XcodeCorruptOnOpenBugDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		934A51FB148C7C2A004E602E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		934A51FE148C7C2A004E602E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		934A5201148C7C2A004E602E /* XcodeCorruptOnOpenBugDemoTool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XcodeCorruptOnOpenBugDemoTool-Prefix.pch"; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 			children = (
 				934A51BD148C7BFB004E602E /* XcodeCorruptOnOpenBugDemo.app */,
 				934A51DE148C7BFC004E602E /* XcodeCorruptOnOpenBugDemoTests.octest */,
-				934A51F9148C7C2A004E602E /* XcodeCorruptOnOpenBugDemoTool */,
+				934A51F9148C7C2A004E602E /* XcodeCorruptOnOpenBugDemo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -214,9 +214,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		934A51BC148C7BFB004E602E /* XcodeCorruptOnOpenBugDemo */ = {
+		934A51BC148C7BFB004E602E /* XcodeCorruptOnOpenBugDemo.app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 934A51EF148C7BFC004E602E /* Build configuration list for PBXNativeTarget "XcodeCorruptOnOpenBugDemo" */;
+			buildConfigurationList = 934A51EF148C7BFC004E602E /* Build configuration list for PBXNativeTarget "XcodeCorruptOnOpenBugDemo.app" */;
 			buildPhases = (
 				934A51B9148C7BFB004E602E /* Sources */,
 				934A51BA148C7BFB004E602E /* Frameworks */,
@@ -226,7 +226,7 @@
 			);
 			dependencies = (
 			);
-			name = XcodeCorruptOnOpenBugDemo;
+			name = XcodeCorruptOnOpenBugDemo.app;
 			productName = XcodeCorruptOnOpenBugDemo;
 			productReference = 934A51BD148C7BFB004E602E /* XcodeCorruptOnOpenBugDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -251,9 +251,9 @@
 			productReference = 934A51DE148C7BFC004E602E /* XcodeCorruptOnOpenBugDemoTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		934A51F8148C7C2A004E602E /* XcodeCorruptOnOpenBugDemoTool */ = {
+		934A51F8148C7C2A004E602E /* XcodeCorruptOnOpenBugDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 934A5204148C7C2B004E602E /* Build configuration list for PBXNativeTarget "XcodeCorruptOnOpenBugDemoTool" */;
+			buildConfigurationList = 934A5204148C7C2B004E602E /* Build configuration list for PBXNativeTarget "XcodeCorruptOnOpenBugDemo" */;
 			buildPhases = (
 				934A51F5148C7C2A004E602E /* Sources */,
 				934A51F6148C7C2A004E602E /* Frameworks */,
@@ -263,9 +263,9 @@
 			);
 			dependencies = (
 			);
-			name = XcodeCorruptOnOpenBugDemoTool;
+			name = XcodeCorruptOnOpenBugDemo;
 			productName = XcodeCorruptOnOpenBugDemoTool;
-			productReference = 934A51F9148C7C2A004E602E /* XcodeCorruptOnOpenBugDemoTool */;
+			productReference = 934A51F9148C7C2A004E602E /* XcodeCorruptOnOpenBugDemo */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -289,9 +289,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				934A51BC148C7BFB004E602E /* XcodeCorruptOnOpenBugDemo */,
+				934A51BC148C7BFB004E602E /* XcodeCorruptOnOpenBugDemo.app */,
 				934A51DD148C7BFC004E602E /* XcodeCorruptOnOpenBugDemoTests */,
-				934A51F8148C7C2A004E602E /* XcodeCorruptOnOpenBugDemoTool */,
+				934A51F8148C7C2A004E602E /* XcodeCorruptOnOpenBugDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -312,7 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				934A51E9148C7BFC004E602E /* InfoPlist.strings in Resources */,
-				933D2090148C7D5C00301F6A /* XcodeCorruptOnOpenBugDemoTool in Resources */,
+				933D2090148C7D5C00301F6A /* XcodeCorruptOnOpenBugDemo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,12 +365,12 @@
 /* Begin PBXTargetDependency section */
 		934A51E3148C7BFC004E602E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 934A51BC148C7BFB004E602E /* XcodeCorruptOnOpenBugDemo */;
+			target = 934A51BC148C7BFB004E602E /* XcodeCorruptOnOpenBugDemo.app */;
 			targetProxy = 934A51E2148C7BFC004E602E /* PBXContainerItemProxy */;
 		};
 		9376947E148C7D0A001CABFB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 934A51F8148C7C2A004E602E /* XcodeCorruptOnOpenBugDemoTool */;
+			target = 934A51F8148C7C2A004E602E /* XcodeCorruptOnOpenBugDemo */;
 			targetProxy = 9376947D148C7D0A001CABFB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -536,7 +536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		934A51EF148C7BFC004E602E /* Build configuration list for PBXNativeTarget "XcodeCorruptOnOpenBugDemo" */ = {
+		934A51EF148C7BFC004E602E /* Build configuration list for PBXNativeTarget "XcodeCorruptOnOpenBugDemo.app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				934A51F0148C7BFC004E602E /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		934A5204148C7C2B004E602E /* Build configuration list for PBXNativeTarget "XcodeCorruptOnOpenBugDemoTool" */ = {
+		934A5204148C7C2B004E602E /* Build configuration list for PBXNativeTarget "XcodeCorruptOnOpenBugDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				934A5205148C7C2B004E602E /* Debug */,
